@@ -59,3 +59,7 @@
     40 percent CPU. On average, they are at 50 percent CPU.) When the policy is in effect, Amazon EC2 Auto Scaling 
     adjusts the group's desired capacity up or down when the threshold of an alarm is breached.
     
+### Amazon EC2 Scaling based on Amazon SQS
+    This is the better solution than the dynamic scaling above.
+    
+    
