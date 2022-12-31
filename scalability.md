@@ -63,3 +63,7 @@
     This is the better solution than the dynamic scaling above.
     
     
+### Fundamental principle of auto scaling
+    If client side receives many timeout errors, then the server should be scaled up. CPU/Memory based scaling does not 
+    soud right.
+    
